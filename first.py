@@ -1,2 +1,8 @@
-print("Пу пу пу")
-print ("Ещё что-то там")
+import asyncio
+
+
+async def main():
+    print("Hello World!")
+
+
+asyncio.run(main())
